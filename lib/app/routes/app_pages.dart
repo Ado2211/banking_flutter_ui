@@ -2,6 +2,10 @@
 
 import 'package:banking_flutter_ui/app/modules/home/bindings/home_binding.dart';
 import 'package:banking_flutter_ui/app/modules/home/views/home_view.dart';
+import 'package:banking_flutter_ui/app/modules/onboarding/bindings/onboarding_binding.dart';
+import 'package:banking_flutter_ui/app/modules/onboarding/views/onboarding_view.dart';
+import 'package:banking_flutter_ui/app/modules/summary/bindings/summary_binding.dart';
+import 'package:banking_flutter_ui/app/modules/summary/views/summary_view.dart';
 
 import 'package:get/get.dart';
 
@@ -17,6 +21,16 @@ abstract class AppPages {
       name: _Paths.HOME,
       page: () => const HomeView(),
       binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.ONBOARDING,
+      page: () => const OnboardingView(),
+      binding: OnboardingBinding(),
+    ),
+    GetPage(
+      name: _Paths.SUMMARY,
+      page: () => const SummaryView(),
+      binding: SummaryBinding(),
     ),
   ];
 }
