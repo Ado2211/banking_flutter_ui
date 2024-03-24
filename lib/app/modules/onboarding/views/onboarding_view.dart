@@ -29,7 +29,7 @@ class OnboardingView extends GetView<OnboardingController> {
                 ),
               ),
               const Padding(
-                padding: EdgeInsets.only(top: 80, left: 15, right: 15),
+                padding: EdgeInsets.only(top: 80, left: 25, right: 25),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [

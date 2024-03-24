@@ -21,7 +21,7 @@ class CurvedLinesBackground extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 30, right: 40),
                 child: Transform.rotate(
-                  angle: pi / 100, // Rotira za 45 stepeni ulevo (u radijanima)
+                  angle: pi / 100,
 
                   child: Container(
                     decoration: const BoxDecoration(
