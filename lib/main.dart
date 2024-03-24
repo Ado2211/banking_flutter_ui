@@ -1,5 +1,4 @@
 import 'package:banking_flutter_ui/app/modules/home/bindings/home_binding.dart';
-import 'package:banking_flutter_ui/app/modules/onboarding/bindings/onboarding_binding.dart';
 import 'package:banking_flutter_ui/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -26,15 +25,15 @@ class MyApp extends StatelessWidget {
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: GetMaterialApp(
-        theme:  ThemeData(
-    textTheme: GoogleFonts.latoTextTheme(textTheme).copyWith(
-      bodyMedium: GoogleFonts.sen(textStyle: textTheme.bodyMedium),
-    ),
-  ),
+        theme: ThemeData(
+          textTheme: GoogleFonts.latoTextTheme(textTheme).copyWith(
+            bodyMedium: GoogleFonts.manrope(textStyle: textTheme.bodyMedium),
+          ),
+        ),
         title: 'Autoskola quiz app',
         getPages: AppPages.routes,
-        initialRoute: Routes.ONBOARDING,
-        initialBinding: OnboardingBinding(),
+        initialRoute: Routes.HOME,
+        initialBinding: HomeBinding(),
       ),
     );
   }
