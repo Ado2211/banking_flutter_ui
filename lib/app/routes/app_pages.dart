@@ -29,7 +29,7 @@ abstract class AppPages {
     ),
     GetPage(
       name: _Paths.SUMMARY,
-      page: () => const SummaryView(),
+      page: () =>  SummaryView(),
       binding: SummaryBinding(),
     ),
   ];

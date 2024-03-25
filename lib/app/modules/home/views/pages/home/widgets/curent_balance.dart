@@ -30,7 +30,7 @@ class BalanceWidget extends StatelessWidget {
                       Text(
                         '\$45,882',
                         style: TextStyle(
-                          fontSize: 36,
+                          fontSize: 40,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
