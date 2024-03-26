@@ -50,7 +50,7 @@ class RecentTransactions extends StatelessWidget {
                 Text(
                   'Recent Transactions',
                   style: TextStyle(
-                    fontSize: 20.0,
+                    fontSize: 18.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

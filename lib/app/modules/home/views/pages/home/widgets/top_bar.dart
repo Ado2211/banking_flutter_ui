@@ -33,7 +33,7 @@ class TopBar extends StatelessWidget {
                 children: [
                   Text(
                     'Good evening',
-                    style: TextStyle(fontSize: 14, color: Colors.grey),
+                    style: TextStyle(fontSize: 12, color: Colors.grey),
                   ),
                   Row(
                     children: [
@@ -41,7 +41,7 @@ class TopBar extends StatelessWidget {
                         '${user.firstName} ',
                         style: TextStyle(
                           color: AppColors.whiteText,
-                          fontSize: 24,
+                          fontSize: 22,
                           fontWeight: FontWeight.bold,
                         ),
                       ),

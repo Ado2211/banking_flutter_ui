@@ -19,7 +19,6 @@ class BalanceWidget extends StatelessWidget {
                   const Text(
                     'Current Balance',
                     style: TextStyle(
-                      fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -30,16 +29,16 @@ class BalanceWidget extends StatelessWidget {
                       Text(
                         '\$45,882',
                         style: TextStyle(
-                          fontSize: 40,
+                          fontSize: 36,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
                         '.00',
                         style: TextStyle(
-                          fontSize: 24,
+                          fontSize: 20,
                           color: Colors.grey,
-                          height: 1.7,
+                          height: 1.9,
                         ),
                       ),
                     ],
@@ -52,7 +51,7 @@ class BalanceWidget extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.all(4),
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(15),
+                    borderRadius: BorderRadius.circular(12),
                     border: Border.all(color: AppColors.lightGrey, width: 1.5),
                   ),
                   child: Transform.rotate(
@@ -60,7 +59,7 @@ class BalanceWidget extends StatelessWidget {
                     child: Icon(
                       Icons.more_vert_sharp,
                       color: AppColors.blackText,
-                      size: 30,
+                      size: 20,
                     ),
                   ),
                 ),
@@ -132,7 +131,6 @@ class RoundedButton extends StatelessWidget {
               label,
               style: TextStyle(
                   color: AppColors.blackText,
-                  fontSize: 16,
                   fontWeight: FontWeight.bold),
             ),
           ],
