@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       child: GetMaterialApp(
         theme: ThemeData(
           textTheme: GoogleFonts.latoTextTheme(textTheme).copyWith(
-            bodyMedium: GoogleFonts.manrope(textStyle: textTheme.bodyMedium),
+            bodyMedium: GoogleFonts.openSans(textStyle: textTheme.bodyMedium),
           ),
         ),
         title: 'Autoskola quiz app',

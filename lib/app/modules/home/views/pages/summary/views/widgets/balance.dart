@@ -21,7 +21,6 @@ class Balance extends StatelessWidget {
                   Text(
                     'Balance',
                     style: TextStyle(
-                      fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -32,16 +31,16 @@ class Balance extends StatelessWidget {
                       Text(
                         '\$1,882',
                         style: TextStyle(
-                          fontSize: 40,
+                          fontSize: 36,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
                         '.35',
                         style: TextStyle(
-                          fontSize: 24,
+                          fontSize: 20,
                           color: Colors.grey,
-                          height: 1.7,
+                          height: 1.9,
                         ),
                       ),
                     ],

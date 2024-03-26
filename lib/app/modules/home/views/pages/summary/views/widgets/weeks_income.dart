@@ -44,14 +44,15 @@ class WeeksIncome extends StatelessWidget {
                       const Text(
                         'Income:',
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 18,
                           color: AppColors.blackText,
+                          fontWeight: FontWeight.w500
                         ),
                       ),
                       const Text(
                         ' \$399',
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                           color: AppColors.blackText,
                         ),
@@ -61,7 +62,6 @@ class WeeksIncome extends StatelessWidget {
                   Text(
                     '32 transactions',
                     style: TextStyle(
-                      fontSize: 16,
                       color: AppColors.greyText,
                     ),
                   ),
@@ -148,7 +148,7 @@ class WeeksIncome extends StatelessWidget {
                           Text(
                             'Update',
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 16,
                               color: AppColors.blackText,
                               fontWeight: FontWeight.bold,
                               

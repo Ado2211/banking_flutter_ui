@@ -50,19 +50,27 @@ class Chart extends StatelessWidget {
               'week 1',
               style: TextStyle(
                 color: AppColors.greyText,
+                fontSize: 12,
               ),
             ),
             Text(
               'week 2',
               style: TextStyle(
                 color: AppColors.greyText,
+                fontSize: 12,
               ),
             ),
-            Text('week 3'),
+            Text(
+              'week 3',
+              style: TextStyle(
+                fontSize: 12,
+              ),
+            ),
             Text(
               'week 4',
               style: TextStyle(
                 color: AppColors.greyText,
+                fontSize: 12,
               ),
             ),
           ],
@@ -105,12 +113,7 @@ class ChartBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 120,
-      decoration: BoxDecoration(
-        border: Border(
-          top: BorderSide(color: AppColors.lightGrey, width: 1),
-          bottom: BorderSide(color: AppColors.lightGrey, width: 1),
-        ),
-      ),
+     
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
